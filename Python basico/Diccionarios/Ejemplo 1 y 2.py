@@ -1,13 +1,26 @@
-hotel = {
-    "name": "Hotel Paradise",
-    "number_of_stars": 5,
-    "rooms": [
+surfer = {
+    "name": "Sebastian",
+    "age": 25,
+    "Hight":1.63,
+    "achivements": [
         {
-            "Number": 115,
-            "Floor": 3,
-            "price_per_night": 50,
+            "Championship": 5,
+            "region_champ": 7,
+            "years_surfing": 18,
         }
     ]
 }
 
-print (hotel)
+surfboard = {
+    "Brand": "JS",
+    "Model": "Inferno",
+    "dimension":[
+        {
+            "Litters": 24,
+            "widght": 5.7,
+        }
+    ]
+}
+
+print ("surfer: ",surfer)
+print ("Surfboard:", surfboard)
